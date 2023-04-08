@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="css/product.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <style>
+        .login-two {
+            margin: auto 10px;
+            font-size: 20px;
+        }
+        .h1-1 {
+            font-style: normal;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin: 15px 15px auto;
+        }
+        select {
+            background: #003d79;
+            color: #fafafa;
+            width: 100px;
+            height: 2.5em;
+            padding: 10px;
+            position: relative;
+            border-radius: 5px;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), linear-gradient(#003d79, #003d79);
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -webkit-linear-gradient(#003d79, #003d79);
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -moz-linear-gradient(#003d79, #003d79);
+            background-position: right 0.01em top 50%, 0 0;
+            background-size: contain, cover;
+            background-repeat: no-repeat, repeat;
+        }
+    </style>
+</head>
+
+<body style="background: url('img/productbg.jpg');
+    center center fixed no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    ">
+
+    <div class="header">
+        <a class="logo" href="home.html">
+            <h1 class="h1-1">Vegatable</h1>
+        </a>
+
+        <nav>
+            <a href="home.html #1">關於我們</a>
+            <a href="product.html">產品</a>
+            <a href="notice.html">訂購須知</a>
+            <a href="contact.html">聯絡我們</a>
+
+        </nav>
+        <div class="login-two">
+            <select name="format" onchange="self.location.href=options[selectedIndex].value">
+                <option selected disabled>登入</option>
+                <option value="index.php" onclick="location.href='index.php'">員工</option>
+                <option value="C-login.php" onclick="location.href='C-login.php'">顧客</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <h1 class="product_title">Product Item</h1>
+
+    <table class="block">
+        <tr>
+            <td>
+                <div class="product_image ">
+                    <img src="img/1.png " alt="carrot ">
+                </div>
+            </td>
+            <td>
+                <div class="product_text ">
+                    <h1>Carrot</h1>
+                    紅蘿蔔富含維生素B1、B2、C、D、E、K及葉酸，還有鈣質、胡蘿蔔素、食物纖維等有益人體健康的成分。 多吃紅蘿蔔不但能提高人體免疫力，而且可以改善眼睛疲勞、貧血等現象。 紅蘿蔔還具平衡血壓、幫助血液循環、淨化血液、促進新陳代謝、強化肝臟機能及清理腸胃的功用，是最天然的綜合維他命丸。
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="product_image ">
+                    <img src="img/2.png " alt="cabbage ">
+                </div>
+            </td>
+            <td>
+                <div class="product_text ">
+                    <h1>Cabbage</h1>
+                    高麗菜所含的維生素K具有凝固血液的功效，維生素U是抗潰瘍因子，可以促進胃的新陳代謝、及黏膜修復；膳食纖維可以促進排便。 吲朵素（indole）能改變雌激素的代謝，降低乳癌風險，其所含有的異硫氰酸鹽，可降低致癌物的毒性，有效預防肺癌和食道癌。 多吃紅蘿蔔不但能提高人體免疫力，而且可以改善眼睛疲勞、貧血等現象。 紅蘿蔔還具平衡血壓、幫助血液循環、淨化血液、促進新陳代謝、強化肝臟機能及清理腸胃的功用，是最天然的綜合維他命丸。
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="product_image ">
+                    <img src="img/3.png " alt="potato ">
+                </div>
+            </td>
+            <td>
+                <div class="product_text ">
+                    <h1>Potato</h1>
+                    性平味甘的馬鈴薯產於南美，後來被大量引進到歐亞，成為世界第四大重要的糧食作物。馬鈴薯具有活血、消炎、益氣、健脾等功效，含豐富的碳水化合物、維生素C、鉀、膳食纖維與植物化學物質等營養素，有益於人體作為營養補充劑和抗氧化劑。
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="product_image ">
+                    <img src="img/4.png " alt="tomato ">
+                </div>
+            </td>
+            <td>
+                <div class="product_text ">
+                    <h1>Tomato</h1>
+                    番茄中含有的番茄紅素和維生素c能抗氧化，幫助抵抗紫外線，促進皮下膠原蛋白合成，達到美容養顏和美白效果。 番茄中含有豐富維生素B維生素C以及葉酸，能加快傷口愈合速度，保護皮膚和骨骼而且可維持血糖穩定。 含有的有機酸，具有開胃效果，能促進食物消化，促進胃腸道對鈣吸收。
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

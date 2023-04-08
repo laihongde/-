@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            background-color: #D1E9E9;
+        }
+
+        .header {
+            display: flex;
+            background-color: rgb(14, 158, 57);
+        }
+        
+        .header a {
+            text-decoration: none;
+        }
+        
+        .header nav {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            line-height: 25px;
+            font-size: 0px;
+        }
+        
+        .header nav a {
+            display: inline-block;
+            padding: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        
+        .header nav a:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        footer {
+            background-color: rgb(14, 158, 57);
+            width: 100%;
+            height: 300%;
+            text-align: center;
+            font-size: 150%;
+        }
+        
+        .btn {
+            border: none;
+            background-color: rgb(247, 159, 77);
+        }
+        
+        .tb-1 {
+            background-color: rgb(232, 227, 187);
+        }
+        .login-two {
+            margin: auto 10px;
+            font-size: 20px;
+        }
+        .h1-1 {
+            font-style: normal;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin: 15px 15px auto;
+        }
+
+        select {
+            background: #003d79;
+            color: #fafafa;
+            width: 100px;
+            height: 2.5em;
+            padding: 10px;
+            position: relative;
+            border-radius: 5px;
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), linear-gradient(#003d79, #003d79);
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -webkit-linear-gradient(#003d79, #003d79);
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -moz-linear-gradient(#003d79, #003d79);
+            background-position: right 0.01em top 50%, 0 0;
+            background-size: contain, cover;
+            background-repeat: no-repeat, repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!--表頭-->
+    <div class="header">
+        <a class="logo" href="home.html">
+            <h1 class="h1-1">Vegatable</h1>
+        </a>
+
+        <nav>
+            <a href="home.html #1">關於我們</a>
+            <a href="product.html">產品</a>
+            <a href="notice.html">訂購須知</a>
+            <a href="contact.html">聯絡我們</a>
+
+        </nav>
+        <div class="login-two">
+            <select name="format" onchange="self.location.href=options[selectedIndex].value">
+                <option selected disabled>登入</option>
+                <option value="index.php" onclick="location.href='index.php'">員工</option>
+                <option value="C-login.php" onclick="location.href='C-login.php'">顧客</option>
+            </select>
+        </div>
+    </div>
+
+
+
+
+    <!--訂購須知-->
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <h2 align="center" id="1"><b>訂購須知</b></h2>
+    <p align="center" style="color:rgb(247, 53, 9); font-size: 200%;"><b>多數商品均為預購，到貨時間請依商品頁說明，到貨後將依訂單付款順序出貨。</b></p>
+
+    <h2 align="center"><b>訂購方式</b></h2>
+    <table class="tb-1" align="center" style="font-size: 150%;">
+        <tr>
+            <td>➊加入/登入會員：登入後可以更方便管理訂單</td>
+        </tr>
+        <tr>
+            <td>➋瀏覽商品：將商品加入購物車</td>
+        </tr>
+        <tr>
+            <td>➌訂單結帳：請確認商品及數量</td>
+        </tr>
+        <tr>
+            <td>➍選擇送貨及付款方式</td>
+        </tr>
+        <tr>
+            <td>➎填寫資料</td>
+        </tr>
+        <tr>
+            <td>➏完成訂單</td>
+        </tr>
+    </table>
+
+    <h2 align="center"><b>付款方式</b></h2>
+    <p align="center" style="font-size: 120%;">目前提供<span style="color:rgb(231, 33, 194)">「貨到付款、信用卡付款、轉帳匯款」</span>三種付款方式。 信用卡付款：如訂單成立後一小時未完成付款，系統將自動取消該筆訂單。</p>
+    <h3 align="center">貨到付款:</h3>
+    <p align="center" style="font-size: 120%;">商品將以宅配方式送達，並於交付貨物時收取貨款，貨物送達時會與您電話聯絡，需請務必保持電話暢通。</p>
+    <p align="center" style="font-size: 120%;">商品出貨後，送達指定地點若未被領取或拒收，會員資料中將會產生未取件記錄。未取件記錄達 2 次以上(含2次)，未來將無法再使用貨到付款方式訂購。</p>
+    <p align="center" style="font-size: 120%;">宅配人員僅提供送件及代收款項的服務，若會員對收到的商品有任何問題，請直接與官網客服聯繫，配送人員無法為您辦理退換貨。</p>
+    <p align="center" style="color:rgb(54, 105, 194); font-size: 200%;">貨到付款服務，僅接受現金付款，並請自備零錢。</p>
+
+    <h2 align="center"><b>配送說明</b></h2>
+    <p align="center" style="font-size: 120%;">確認訂單後，將於三個工作天內進行出貨。並於出貨後1~3日配送至指定地址(預購或特殊商品除外)。</p>
+    <p align="center" style="font-size: 120%;">常態的出貨時間為:今天上午前10:00下單，最快隔日送達(例假日除外)。</p>
+    <p align="center" style="font-size: 120%;">僅提供白天配送，無夜間配送，如需指定配送時間請於訂單註明。</p>
+    <p align="center" style="font-size: 120%;">因委外物流，配送途中可能會產生有不可預知之因素或因節日物流延誤，無法保證於指定配送時段到達，敬請見諒。</p>
+    <p align="center" style="font-size: 120%;">實際出貨時間仍將依訂單量調節，可能提前或延後出貨，如有延後出貨超過2天的緊急狀況，將另行通知。</p>
+    <br>
+    <br>
+
+    <div class="footer">
+        <footer>
+            <p>地址:912屏東縣內埔鄉學府路1號</p>
+            <p>電話:0900-000-000</p>
+        </footer>
+    </div>
+</body>
+
+</html>
